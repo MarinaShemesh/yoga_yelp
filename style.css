@@ -1,0 +1,83 @@
+body {
+    background-image: url("img/julia-caesar-15080-unsplash.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Raleway', sans-serif;
+}
+
+.screen {
+  display:grid;
+  grid-template-rows: repeat(2, 1fr)
+  grid-gap: 15px;
+
+}
+
+.navbar{
+  background-color: orange;
+}
+.search{
+  grid-row-start:2;
+  padding: 120px 0px 25px 30px;
+  margin: 10px;
+ }
+
+.footer{
+  grid-row-start:3;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  color: white;
+}
+
+p{
+  color:black;
+  font-family: 'Raleway', sans-serif;
+  text-align:right;
+}
+
+.container-4{
+  overflow: hidden;
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.container-4 input#search{
+  width: 300px;
+  height: 50px;
+  background: #b4d881;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #fff;
+  padding-left: 15px;
+ }
+
+.container-4 button.icon{
+  border: none;
+  background: white;
+  height: 50px;
+  width: 50px;
+  color: #4f5b66;
+  opacity: 0;
+  font-size: 10pt;
+  transition: all .55s ease;
+}
+
+.container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+    outline: none;
+    opacity: 1;
+    margin-left: -50px;
+  }
+ 
+  .container-4:hover button.icon:hover{
+    background: white;
+  }
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size: 18px;
+  }
