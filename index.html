@@ -8,21 +8,40 @@
 </head>
 <body>
   <div class="screen">
-    <div class="navbar">Navbar</div>
+  
+    <div class="navbar" id="brand">Namaste,baby
+      <nav id="nav-main" role='navigation'>
+        <ul>
+          <li><a href="#">Reviews</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Adventure</a>
+            <!--dropdown-->
+            <ul id="dropdown">
+              <li>About</li>
+              <li>Contact</li>
+              <li>Social Media</li>
+            </ul>
+          </li>
+         <li><a href="#">Sign up</a></li>
+         <li><a href="#">Sign in</a></li>
+        </ul>
+   </nav>
+  </div>
+
     <div class="search">
       <img src="img/logo.jpg" alt="Namaste baby logo">
       <h1>Where will your next yoga adventure be?</h1>
        <div class="box">
-          <div class="container-4">
+          <div class="container-1">
             <input type="search" id="search" placeholder="Find: Retreats, festivals, studios.." />
             <button class="icon"><i class="fa fa-search"></i></button>
           </div>
           <br>
-          <div class="container-4">
+          <div class="container-2">
             <input type="search" id="search" placeholder="Near: Tsfat, Israel" />
             <button class="icon"><i class="fa fa-search"></i></button>
           </div>
-   </div>
+      </div>
     </div>
     <div class="footer"><p>Copyright by <a href="https://github.com/MarinaShemesh" target="_blank">Marina Shemesh</a></p></div>
 

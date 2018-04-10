@@ -12,7 +12,71 @@ body {
 }
 
 .navbar{
-  background-color: orange;
+  background-color: #b5b5b7;
+  padding: 10px;
+  overflow: hidden;
+}
+
+#brand{
+  font-size: 1.5em;
+  float: left;
+  padding: 30px 15px 0px 15px;
+  line-height: 10px;
+  
+}
+
+#nav-main{
+  background-color: #444;
+  color: #fff;
+  height: 70px;
+  float: right;
+}
+
+#nav-main ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+#nav-main ul li {
+  display: inline-block;
+  padding: 30px 20px 0px 20px;
+  line-height: 10px;
+  height: 40px;
+}
+
+#nav-main ul li a {
+  text-decoration: none;
+  color: #DBE2F1;
+}
+
+#nav-main ul li:hover {
+  background-color: #797979;
+  cursor: pointer;
+}
+
+
+/**========dropdown==========**/
+
+/*shows dropdown on hover*/
+#nav-main ul li:hover > ul {
+  display: inherit;
+}
+
+/*hides dropdown*/
+#nav-main ul ul {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  top: 70px;
+  left: 362px;
+  padding: 0;
+  overflow: hidden;
+}
+
+#nav-main ul ul li {
+  display: block;
+
 }
 .search{
   grid-row-start:2;
@@ -39,25 +103,25 @@ p{
   text-align:right;
 }
 
-.container-4{
+.container-1{
   overflow: hidden;
   width: 300px;
   vertical-align: middle;
   white-space: nowrap;
 }
 
-.container-4 input#search{
+.container-1 input#search{
   width: 300px;
   height: 50px;
   background: #b4d881;
   border: none;
-  font-size: 10pt;
+  font-size: 13pt;
   float: left;
   color: #fff;
   padding-left: 15px;
  }
 
-.container-4 button.icon{
+.container-1 button.icon{
   border: none;
   background: white;
   height: 50px;
@@ -68,16 +132,56 @@ p{
   transition: all .55s ease;
 }
 
-.container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+.container-1:hover button.icon, .container-1:active button.icon, .container-4:focus button.icon{
     outline: none;
     opacity: 1;
     margin-left: -50px;
   }
  
-  .container-4:hover button.icon:hover{
+  .container-1:hover button.icon:hover{
     background: white;
   }
 
-  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  font-size: 18px;
+  .container-2{
+  overflow: hidden;
+  width: 200px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.container-2 input#search{
+  width: 200px;
+  height: 50px;
+  background: #b4d881;
+  border: none;
+  font-size: 13pt;
+  float: left;
+  color: #fff;
+  padding-left: 15px;
+ }
+
+.container-2 button.icon{
+  border: none;
+  background: white;
+  height: 50px;
+  width: 50px;
+  color: #4f5b66;
+  opacity: 0;
+  font-size: 10pt;
+  transition: all .55s ease;
+}
+
+.container-2:hover button.icon, .container-2:active button.icon, .container-4:focus button.icon{
+    outline: none;
+    opacity: 1;
+    margin-left: -50px;
   }
+ 
+  .container-2:hover button.icon:hover{
+    background: white;
+  }
+
+
+/*  ::-webkit-input-placeholder {  Chrome/Opera/Safari 
+  font-size: 18px;
+  }*/
