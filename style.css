@@ -142,7 +142,7 @@ p{
     background: white;
   }
 
-  .container-2{
+ .container-2{
   overflow: hidden;
   width: 200px;
   vertical-align: middle;
@@ -180,8 +180,3 @@ p{
   .container-2:hover button.icon:hover{
     background: white;
   }
-
-
-/*  ::-webkit-input-placeholder {  Chrome/Opera/Safari 
-  font-size: 18px;
-  }*/
