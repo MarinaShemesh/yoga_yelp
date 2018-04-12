@@ -2,6 +2,7 @@ body {
     background-image: url("img/julia-caesar-15080-unsplash.jpg");
     background-repeat: no-repeat;
     font-family: 'Raleway', sans-serif;
+    color:white;
 }
 
 .screen {
@@ -12,33 +13,15 @@ body {
 
 }
 
-/*.navbar{
-  background-color: #b5b5b7;
-  padding: 10px;
-/*  overflow: hidden;*/
-}*/
-
-.container{
-  display: flex;
-  align-items: center;
-}
-
-#brand{
-  font-size: 1.5em;
-  float: left;
-  padding: 30px 15px 0px 15px;
-  line-height: 10px;
-  
-}
-
 .search{
   grid-row-start:2;
-  padding: 120px 0px 25px 30px;
+  padding: 60px 0px 25px 30px;
   margin: 10px;
  }
 
 .footer{
   grid-row-start:3;
+  padding: 40px 45px 0px 0px;
 }
 
 
@@ -59,8 +42,10 @@ p{
 .header-container {
  display: flex;
  flex-direction: column;
- border-bottom: 1px solid #F2F2F2;
- padding: 2.3em 0;
+ border-bottom: 2px solid black;
+ padding: .7em 0;
+/* background-color: blue;*/
+ font-size: 18px;
 }
 .logo {
  margin-left: 5%;
