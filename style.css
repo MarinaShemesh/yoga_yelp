@@ -9,19 +9,18 @@ body {
   display:grid;
   grid-template-rows: repeat(2, 1fr)
   grid-template-columns: repeat(2, 1fr)
-  grid-gap: 15px;
 
 }
 
 .search{
   grid-row-start:2;
-  padding: 60px 0px 25px 30px;
+  padding: 30px 0px 25px 30px;
   margin: 10px;
  }
 
 .footer{
   grid-row-start:3;
-  padding: 40px 45px 0px 0px;
+  padding: 30px 45px 0px 0px;
 }
 
 
@@ -42,9 +41,7 @@ p{
 .header-container {
  display: flex;
  flex-direction: column;
- border-bottom: 2px solid black;
  padding: .7em 0;
-/* background-color: blue;*/
  font-size: 18px;
 }
 .logo {
@@ -65,11 +62,7 @@ header ul li a {
  text-decoration: none;
  color: #7D7C7D;
 }
-li a.active {
- color: #000000;
- border-bottom: 2px solid #000000;
- font-weight: 300;
-}
+
 li a:hover {
  color: #B6B6B6;
 }
@@ -104,23 +97,14 @@ li a:hover {
   float: left;
   color: #fff;
   padding-left: 15px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
 }
 
 .container-4 input#search::-webkit-input-placeholder {
-   color: blue;
+   color: grey;
 }
 
 .container-1 button.icon{
-  -webkit-border-top-right-radius: 5px;
-  -webkit-border-bottom-right-radius: 5px;
-  -moz-border-radius-topright: 5px;
-  -moz-border-radius-bottomright: 5px;
-/*  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;*/
- 
+
   border: none;
   background: #232833;
   height: 50px;
@@ -145,3 +129,8 @@ li a:hover {
   .container-1:hover button.icon:hover{
     background: white;
   }
+
+.sing_in{
+  background-color: #fc5b7d;
+  padding: 12px;
+}
