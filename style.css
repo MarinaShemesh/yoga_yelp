@@ -2,7 +2,7 @@ body {
     background-image: url("img/julia-caesar-15080-unsplash.jpg");
     background-repeat: no-repeat;
     font-family: 'Raleway', sans-serif;
-    color:white;
+   
 }
 
 .screen {
@@ -29,7 +29,7 @@ a {
 }
 
 h1{
-  color: white;
+  color: blue;
 }
 
 p{
