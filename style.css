@@ -8,7 +8,7 @@ body {
 .screen {
   display:grid;
   grid-template-rows: repeat(2, 1fr)
-  grid-template-columns: repeat(2, 1fr)
+  grid-template-columns: repeat(1, 1fr)
 
 }
 
@@ -20,7 +20,7 @@ body {
 
 .footer{
   grid-row-start:3;
-  padding: 30px 45px 0px 0px;
+  padding: 70px 70px 0px 0px;
 }
 
 
@@ -29,7 +29,7 @@ a {
 }
 
 h1{
-  color: blue;
+  color: yellow;
 }
 
 p{
@@ -44,12 +44,7 @@ p{
  padding: .7em 0;
  font-size: 18px;
 }
-.logo {
- margin-left: 5%;
-}
-.logo img {
- display: block;
-}
+
 nav {
  margin: 1.5em 0 0 5%;
 }
@@ -60,7 +55,7 @@ header ul li {
 }
 header ul li a {
  text-decoration: none;
- color: #7D7C7D;
+ color: #171d22;
 }
 
 li a:hover {
@@ -72,9 +67,7 @@ li a:hover {
    flex-direction: row;
    justify-content: space-between;
  }
- .logo {
-   margin-left: 2.3em;
- }
+
  nav {
    align-self: center;
    margin: 0 0.8em 0 0;
@@ -83,54 +76,34 @@ li a:hover {
 
 .container-1{
   overflow: hidden;
-  width: 300px;
+  width: 550px;
   vertical-align: middle;
   white-space: nowrap;
 }
 
 .container-1 input#search{
-  width: 300px;
+  width: 500px;
   height: 50px;
   background: white;
   border: none;
-  font-size: 10pt;
+  font-size: 12pt;
   float: left;
   color: #fff;
-  padding-left: 15px;
+  padding-left: 18px;
 }
 
-.container-4 input#search::-webkit-input-placeholder {
-   color: grey;
+
+button.icon {
+    float: right;
+    height: 50px;
+    width: 50px;
+    background: #a1c6ba;
+    border:none;
+    font-size: 12pt;
+
 }
-
-.container-1 button.icon{
-
-  border: none;
-  background: #232833;
-  height: 50px;
-  width: 50px;
-  color: #4f5b66;
-  opacity: 0;
-  font-size: 10pt;
- 
-  -webkit-transition: all .55s ease;
-  -moz-transition: all .55s ease;
-  -ms-transition: all .55s ease;
-  -o-transition: all .55s ease;
-  transition: all .55s ease;
-}
-
-.container-1:hover button.icon, .container-1:active button.icon, .container-1:focus button.icon{
-    outline: none;
-    opacity: 1;
-    margin-left: -50px;
-  }
- 
-  .container-1:hover button.icon:hover{
-    background: white;
-  }
 
 .sing_in{
-  background-color: #fc5b7d;
+  background-color: #a1c6ba;
   padding: 12px;
 }
